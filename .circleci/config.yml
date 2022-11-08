@@ -49,7 +49,7 @@ jobs:
             echo "TODO: Build the backend API"
             npm run api:build
   # deploy step will run only after manual approval
-  deploy:
+deploy:
     docker:
       - image: "cimg/base:stable"
       # more setup needed for aws, node, elastic beanstalk
